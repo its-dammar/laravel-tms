@@ -1,6 +1,3 @@
-This is a Laravel project. In this project, you will learn CRUD operation, file upload, pagination, authenticating, and notification.
-
-
 Create a Laravel project 
 1.	Create a database:- project
 2.	Create a project
@@ -15,9 +12,9 @@ DB_USERNAME=root
 DB_PASSWORD=
 5.	Create a model, a controller, and a migration (table)
 if you want to create separate 
-**model**:- php artisan make model
-**controller**:- php artisan make:controller TaskController --resource
-**Migration**:- php artisan make:migration create_tasks_table
+model:- php artisan make model
+controller:- php artisan make:controller TaskController --resource
+Migration:- php artisan make:migration create_tasks_table
 
 OR 
 create mode, controller, and migration at a time, use this command
@@ -403,3 +400,4 @@ in front end page
 
 To access image
 <img src="{{ asset('uploads/' . $blog->img) }}" alt="" class="img-fluid">
+next
